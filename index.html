@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+<title>Infographic QĐ 44/2026/QĐ-UBND — Đánh giá, Xét công nhận Sáng kiến KH&CN tỉnh Khánh Hòa</title>
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family:'Times New Roman',Times,serif; background:#f0f4f8; width:100%; min-width:960px; overflow-x:auto; }
+.page { width:1260px; margin:0 auto; background:#fff; display:grid; grid-template-rows:70px auto 30px; box-shadow:0 2px 20px rgba(0,0,0,0.1); }
+
+/* HEADER */
+.header {
+  background:linear-gradient(135deg,#005580 0%,#0077aa 45%,#009970 80%,#006655 100%);
+  display:flex; align-items:center; padding:0 18px; gap:14px;
+  border-bottom:4px solid #f0c030;
+}
+.hdr-emblem { width:48px;height:48px;border-radius:12px;background:rgba(255,255,255,0.2);border:2px solid rgba(255,255,255,0.5);display:flex;align-items:center;justify-content:center;font-size:26px;flex-shrink:0; }
+.hdr-main { flex:1; }
+.hdr-org  { font-size:9.5px;font-weight:700;color:#c8f0e0;letter-spacing:1px;text-transform:uppercase;margin-bottom:2px; }
+.hdr-title { font-size:15.5px;font-weight:700;color:#fff;line-height:1.2; }
+.hdr-sub   { font-size:9.5px;color:#b0dff0;font-style:italic;margin-top:2px; }
+.hdr-pills { display:flex;flex-direction:column;gap:4px;align-items:flex-end; }
+.hdr-pill  { background:rgba(240,192,48,0.25);border:1px solid rgba(240,192,48,0.6);color:#fff7cc;font-size:10px;font-weight:700;padding:3px 10px;border-radius:3px;white-space:nowrap; }
+
+/* BODY */
+.body { display:grid; grid-template-columns:270px 285px 1fr 228px; align-items:start; }
+.col { padding:11px; border-right:1px solid #d8e8f0; display:flex; flex-direction:column; gap:7px; }
+.col:last-child { border-right:none; }
+
+/* SECTION HEADERS */
+.sh { display:flex;align-items:center;gap:7px;padding:6px 10px;border-radius:6px; }
+.sh.blue  { background:linear-gradient(135deg,#005580,#007aaa); }
+.sh.teal  { background:linear-gradient(135deg,#006655,#009970); }
+.sh.navy  { background:linear-gradient(135deg,#003366,#004488); }
+.sh.grn   { background:linear-gradient(135deg,#2a6a30,#3a8a40); }
+.sh.pur   { background:linear-gradient(135deg,#4a2080,#6030a0); }
+.sh.org   { background:linear-gradient(135deg,#905000,#b07020); }
+.sh.red   { background:linear-gradient(135deg,#882020,#aa3030); }
+.sh.gray  { background:linear-gradient(135deg,#445566,#556677); }
+.sh-icon { font-size:14px; }
+.sh-text { font-size:10px;font-weight:700;color:#fff;line-height:1.2;flex:1; }
+.sh-art  { font-size:8.5px;color:rgba(255,255,255,0.6);font-style:italic;white-space:nowrap; }
+
+/* TABLES */
+.gt { width:100%;border-collapse:collapse;font-size:8.5px; }
+.gt th { padding:4px 5px;font-size:8px;font-weight:700;color:#fff;text-align:center; }
+.gt td { border:1px solid #c8dde8;padding:3px 5px;vertical-align:middle;line-height:1.35;color:#102030; }
+.gt tr:nth-child(even) td { background:#f2f7fb; }
+.gt td:first-child { font-weight:700;color:#005580; }
+.gt.blue th  { background:#005580; } .gt.teal th  { background:#006655; }
+.gt.navy th  { background:#003366; } .gt.grn th   { background:#2a6a30; }
+.gt.pur th   { background:#4a2080; } .gt.org th   { background:#905000; }
+.gt.red th   { background:#882020; } .gt.gray th  { background:#445566; }
+
+/* LIST */
+.rl { display:flex;flex-direction:column;gap:3px; }
+.ri { display:flex;gap:6px;align-items:flex-start;padding:5px 8px;border-radius:5px;background:#f0f7fb;border-left:3px solid #0077aa; }
+.ri.g  { border-left-color:#2a8a30;background:#f0f8f2; }
+.ri.t  { border-left-color:#006655;background:#eef8f5; }
+.ri.r  { border-left-color:#882020;background:#fdf2f2; }
+.ri.o  { border-left-color:#905000;background:#fdf5e8; }
+.ri.p  { border-left-color:#4a2080;background:#f5f0fb; }
+.ri-icon { font-size:12px;flex-shrink:0;margin-top:1px; }
+.ri-text { font-size:8.5px;color:#102030;line-height:1.45; }
+.ri-text strong { color:#005580; }
+
+/* NOTE */
+.note   { background:#fffbe8;border:1px solid #d8c040;border-radius:4px;padding:5px 8px;font-size:8.5px;color:#3a2800;line-height:1.5; }
+.note-b { background:#eef5fb;border:1px solid #90b8d8;border-radius:4px;padding:5px 8px;font-size:8.5px;color:#102030;line-height:1.5; }
+.note-g { background:#eef8f2;border:1px solid #80c890;border-radius:4px;padding:5px 8px;font-size:8.5px;color:#102818;line-height:1.5; }
+.note-r { background:#fdf2f0;border:1px solid #e0a090;border-radius:4px;padding:5px 8px;font-size:8.5px;color:#3a1808;line-height:1.5; }
+
+/* STAT */
+.stat-row { display:flex;gap:4px; }
+.sb { flex:1;border-radius:6px;padding:7px 5px;text-align:center; }
+.sb.blue  { background:#e8f3fb;border:1px solid #90b8d8; }
+.sb.teal  { background:#edf8f5;border:1px solid #70c8b0; }
+.sb.grn   { background:#eef8f0;border:1px solid #80c890; }
+.sb.org   { background:#fdf5e8;border:1px solid #d4a060; }
+.sb.pur   { background:#f5f0fb;border:1px solid #b090d8; }
+.sb.red   { background:#fdf2f0;border:1px solid #d09090; }
+.sb.navy  { background:#eef2fb;border:1px solid #90a8d8; }
+.sb-num  { font-size:20px;font-weight:700;line-height:1; }
+.sb-unit { font-size:8px;font-style:italic;color:#506070; }
+.sb-desc { font-size:8px;color:#304050;margin-top:2px;line-height:1.3; }
+.sb.blue .sb-num  { color:#005580; } .sb.teal .sb-num  { color:#006655; }
+.sb.grn .sb-num   { color:#2a6a30; } .sb.org .sb-num   { color:#905000; }
+.sb.pur .sb-num   { color:#4a2080; } .sb.red .sb-num   { color:#882020; }
+.sb.navy .sb-num  { color:#003366; }
+
+/* SCORE GRID */
+.score-grid { display:grid;grid-template-columns:1fr 1fr;gap:4px; }
+.score-box { border-radius:6px;padding:7px 8px;border:1px solid;text-align:center; }
+.score-box.a { background:#eef5fb;border-color:#90b8d8; }
+.score-box.b { background:#eef8f5;border-color:#70c8b0; }
+.score-box.c { background:#fff5e8;border-color:#d4a060; }
+.score-box.d { background:#f5f0fb;border-color:#b090d8; }
+.score-pts { font-size:22px;font-weight:700;line-height:1; }
+.score-box.a .score-pts { color:#005580; }
+.score-box.b .score-pts { color:#006655; }
+.score-box.c .score-pts { color:#905000; }
+.score-box.d .score-pts { color:#4a2080; }
+.score-lbl { font-size:8px;font-weight:700;margin-top:3px;line-height:1.3;color:#202030; }
+.score-desc { font-size:7.5px;color:#404050;margin-top:2px;line-height:1.3; }
+
+/* FLOW */
+.flow { display:flex;align-items:stretch;gap:2px; }
+.fs { flex:1;background:#f0f7fb;border:1px solid #c0d8e8;border-radius:5px;padding:6px 5px;text-align:center; }
+.fs-num { width:17px;height:17px;background:#005580;color:#fff;border-radius:50%;font-size:8.5px;font-weight:700;display:flex;align-items:center;justify-content:center;margin:0 auto 4px; }
+.fs-title { font-size:8px;font-weight:700;color:#005580;margin-bottom:2px; }
+.fs-desc  { font-size:7.5px;color:#304050;line-height:1.3; }
+.fa { display:flex;align-items:center;color:#f0a020;font-size:13px;font-weight:700;flex-shrink:0;padding-top:3px; }
+
+/* LEVEL BADGE */
+.level-row { display:flex;gap:4px; }
+.lvl { flex:1;border-radius:5px;padding:6px 5px;text-align:center;border:1px solid; }
+.lvl.cs { background:#eef5fb;border-color:#90b8d8; }
+.lvl.t  { background:#eef8f5;border-color:#70c8b0; }
+.lvl.q  { background:#fff8e8;border-color:#d4b060; }
+.lvl-icon { font-size:18px; }
+.lvl-name { font-size:9px;font-weight:700;margin-top:2px; }
+.lvl-desc { font-size:8px;margin-top:2px;line-height:1.3;color:#304050; }
+.lvl.cs .lvl-name { color:#005580; }
+.lvl.t  .lvl-name { color:#006655; }
+.lvl.q  .lvl-name { color:#905000; }
+
+/* GRID */
+.pg { display:grid;grid-template-columns:1fr 1fr;gap:4px; }
+.pi { display:flex;gap:5px;align-items:flex-start;background:#f0f7fb;border:1px solid #c0d0e0;border-radius:5px;padding:5px 7px; }
+.pi-num { width:18px;height:18px;background:#005580;color:#fff;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:9px;font-weight:700;flex-shrink:0;margin-top:1px; }
+.pi-text { font-size:9px;color:#102030;line-height:1.3; }
+
+/* PCT */
+.pct { font-size:8px;font-weight:700;color:#005580;padding:2px 8px;background:#e0f0fb;border-left:3px solid #0077aa;border-radius:0 3px 3px 0;margin-bottom:3px; }
+
+/* TRANSIT */
+.tr-list { display:flex;flex-direction:column;gap:3px; }
+.tr-item { display:flex;gap:5px;align-items:flex-start;padding:5px 8px;background:#fffbe8;border-left:3px solid #d8b030;border-radius:0 4px 4px 0;font-size:8.5px;color:#302800;line-height:1.45; }
+.tr-icon { flex-shrink:0;font-size:10px; }
+
+/* AUTH BOX */
+.auth-box { background:#f0f7fb;border:1px solid #c0d8e8;border-radius:6px;padding:7px 9px; }
+.auth-row { display:flex;gap:6px;margin-bottom:5px;align-items:flex-start; }
+.auth-row:last-child { margin-bottom:0; }
+.auth-icon { font-size:15px;flex-shrink:0;margin-top:1px; }
+.auth-title { font-size:9px;font-weight:700;color:#005580;margin-bottom:2px; }
+.auth-desc  { font-size:8.5px;color:#203040;line-height:1.4; }
+
+/* FOOTER */
+.footer { background:#005580;display:flex;align-items:center;justify-content:space-between;padding:0 18px;font-size:8.5px;color:rgba(255,255,255,0.5);font-style:italic; }
+.footer strong { color:#fff;font-style:normal; }
+
+/* ZOOM MODAL */
+.zoomable { cursor:zoom-in;position:relative;transition:outline 0.15s; }
+.zoomable:hover { outline:2px dashed rgba(0,119,170,0.6);outline-offset:3px; }
+.zoomable:hover::after { content:'🔍 Click để phóng to';position:absolute;top:3px;right:5px;background:rgba(0,60,100,0.9);color:#c8f0ff;font-size:9.5px;font-weight:700;font-family:'Times New Roman',serif;padding:2px 8px;border-radius:10px;pointer-events:none;white-space:nowrap;z-index:10; }
+#zx-backdrop { display:none;position:fixed;inset:0;background:rgba(0,0,0,0.55);z-index:9990;backdrop-filter:blur(3px); }
+#zx-modal { position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);z-index:9995;background:#fff;border:1px solid #c0d8e8;border-radius:14px;box-shadow:0 8px 48px rgba(0,0,0,0.2);width:auto;max-width:min(96vw,1100px);max-height:90vh;box-sizing:border-box;display:none;flex-direction:column; }
+@media(max-width:768px){ #zx-modal{position:fixed!important;width:96vw!important;max-width:96vw!important;max-height:88vh!important;border-radius:12px!important;top:50%!important;left:50%!important;bottom:auto!important;transform:translate(-50%,-50%)!important;} }
+#zx-titlebar { display:flex;align-items:center;justify-content:space-between;padding:12px 16px 10px;border-bottom:2px solid #d0e8f5;flex-shrink:0; }
+#zx-title { font-family:'Times New Roman',serif;font-size:14px;font-weight:700;color:#005580;flex:1;margin-right:12px; }
+#zx-close { cursor:pointer;width:28px;height:28px;border-radius:50%;background:#e8f3fb;border:1px solid #90b8d8;color:#005580;font-size:14px;line-height:28px;text-align:center;flex-shrink:0; }
+#zx-close:hover { background:#c8e0f5; }
+#zx-scroll { overflow:auto;-webkit-overflow-scrolling:touch;padding:16px;flex:1;min-width:0; }
+#zx-inner { display:inline-block;min-width:100%;box-sizing:border-box;font-family:'Times New Roman',serif;color:#102030; }
+@media(max-width:768px){ #zx-inner{min-width:unset;width:100%;display:block;} }
+#zx-inner table { width:100%;min-width:max-content;border-collapse:collapse;font-size:13px; }
+#zx-inner table th { padding:8px 10px;font-size:12px;font-weight:700;color:#fff;text-align:center; }
+#zx-inner table td { border:1px solid #c8dde8;padding:7px 10px;vertical-align:middle;line-height:1.5;font-size:12.5px;color:#102030; }
+#zx-inner table tr:nth-child(even) td { background:#f2f7fb; }
+#zx-inner table td:first-child { font-weight:700;color:#005580; }
+#zx-inner .gt.blue th { background:#005580; } #zx-inner .gt.teal th { background:#006655; }
+#zx-inner .gt.navy th { background:#003366; } #zx-inner .gt.grn th  { background:#2a6a30; }
+#zx-inner .gt.pur th  { background:#4a2080; } #zx-inner .gt.org th  { background:#905000; }
+#zx-inner .gt.red th  { background:#882020; } #zx-inner .gt.gray th { background:#445566; }
+#zx-inner .rl { display:flex;flex-direction:column;gap:6px; }
+#zx-inner .ri { display:flex;gap:8px;align-items:flex-start;padding:8px 10px;border-radius:5px;background:#f0f7fb;border-left:3px solid #0077aa; }
+#zx-inner .ri.g { border-left-color:#2a8a30;background:#f0f8f2; }
+#zx-inner .ri.t { border-left-color:#006655;background:#eef8f5; }
+#zx-inner .ri.r { border-left-color:#882020;background:#fdf2f2; }
+#zx-inner .ri.o { border-left-color:#905000;background:#fdf5e8; }
+#zx-inner .ri-icon { font-size:14px;flex-shrink:0; }
+#zx-inner .ri-text { font-size:13px;line-height:1.55;color:#102030; }
+#zx-inner .ri-text strong { color:#005580; }
+#zx-inner .note   { background:#fffbe8;border:1px solid #d8c040;border-radius:4px;padding:8px 10px;font-size:12px;color:#3a2800;line-height:1.5; }
+#zx-inner .note-b { background:#eef5fb;border:1px solid #90b8d8;border-radius:4px;padding:8px 10px;font-size:12px;color:#102030;line-height:1.5; }
+#zx-inner .note-g { background:#eef8f2;border:1px solid #80c890;border-radius:4px;padding:8px 10px;font-size:12px;color:#102818;line-height:1.5; }
+#zx-inner .stat-row { display:flex;gap:10px; }
+#zx-inner .sb { flex:1;border-radius:7px;padding:12px 10px;text-align:center; }
+#zx-inner .sb-num { font-size:30px;font-weight:700;line-height:1; }
+#zx-inner .sb-unit { font-size:11px;font-style:italic;color:#506070; }
+#zx-inner .sb-desc { font-size:11.5px;color:#304050;margin-top:4px;line-height:1.35; }
+#zx-inner .sb.blue  { background:#e8f3fb;border:1px solid #90b8d8; } #zx-inner .sb.blue .sb-num  { color:#005580; }
+#zx-inner .sb.teal  { background:#edf8f5;border:1px solid #70c8b0; } #zx-inner .sb.teal .sb-num  { color:#006655; }
+#zx-inner .sb.grn   { background:#eef8f0;border:1px solid #80c890; } #zx-inner .sb.grn .sb-num   { color:#2a6a30; }
+#zx-inner .sb.org   { background:#fdf5e8;border:1px solid #d4a060; } #zx-inner .sb.org .sb-num   { color:#905000; }
+#zx-inner .sb.navy  { background:#eef2fb;border:1px solid #90a8d8; } #zx-inner .sb.navy .sb-num  { color:#003366; }
+#zx-inner .sb.red   { background:#fdf2f0;border:1px solid #d09090; } #zx-inner .sb.red .sb-num   { color:#882020; }
+#zx-inner .auth-box { background:#f0f7fb;border:1px solid #c0d8e8;border-radius:6px;padding:10px 12px; }
+#zx-inner .auth-row { display:flex;gap:10px;margin-bottom:8px;align-items:flex-start; }
+#zx-inner .auth-row:last-child { margin-bottom:0; }
+#zx-inner .auth-icon { font-size:20px;flex-shrink:0; }
+#zx-inner .auth-title { font-size:13px;font-weight:700;color:#005580;margin-bottom:3px; }
+#zx-inner .auth-desc  { font-size:12px;color:#203040;line-height:1.5; }
+#zx-inner .score-grid { display:grid;grid-template-columns:1fr 1fr;gap:8px; }
+#zx-inner .score-box { border-radius:7px;padding:10px;border:1px solid;text-align:center; }
+#zx-inner .score-box.a { background:#eef5fb;border-color:#90b8d8; } #zx-inner .score-box.a .score-pts { color:#005580; }
+#zx-inner .score-box.b { background:#eef8f5;border-color:#70c8b0; } #zx-inner .score-box.b .score-pts { color:#006655; }
+#zx-inner .score-box.c { background:#fff5e8;border-color:#d4a060; } #zx-inner .score-box.c .score-pts { color:#905000; }
+#zx-inner .score-box.d { background:#f5f0fb;border-color:#b090d8; } #zx-inner .score-box.d .score-pts { color:#4a2080; }
+#zx-inner .score-pts { font-size:36px;font-weight:700;line-height:1; }
+#zx-inner .score-lbl { font-size:12px;font-weight:700;margin-top:5px;line-height:1.3;color:#202030; }
+#zx-inner .score-desc { font-size:11px;color:#404050;margin-top:3px;line-height:1.3; }
+#zx-inner .level-row { display:flex;gap:8px; }
+#zx-inner .lvl { flex:1;border-radius:6px;padding:10px 8px;text-align:center;border:1px solid; }
+#zx-inner .lvl.cs { background:#eef5fb;border-color:#90b8d8; } #zx-inner .lvl.cs .lvl-name { color:#005580; }
+#zx-inner .lvl.t  { background:#eef8f5;border-color:#70c8b0; } #zx-inner .lvl.t .lvl-name  { color:#006655; }
+#zx-inner .lvl.q  { background:#fff8e8;border-color:#d4b060; } #zx-inner .lvl.q .lvl-name  { color:#905000; }
+#zx-inner .lvl-icon { font-size:22px; }
+#zx-inner .lvl-name { font-size:12px;font-weight:700;margin-top:4px; }
+#zx-inner .lvl-desc { font-size:11px;margin-top:3px;line-height:1.4;color:#304050; }
+#zx-inner .pg { display:grid;grid-template-columns:1fr 1fr;gap:8px; }
+#zx-inner .pi { display:flex;gap:8px;align-items:flex-start;background:#f0f7fb;border:1px solid #c0d0e0;border-radius:5px;padding:8px 10px; }
+#zx-inner .pi-num { width:22px;height:22px;background:#005580;color:#fff;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:10px;font-weight:700;flex-shrink:0; }
+#zx-inner .pi-text { font-size:13px;line-height:1.4;color:#102030; }
+#zx-inner .pct { font-size:11px;font-weight:700;color:#005580;padding:3px 8px;background:#e0f0fb;border-left:3px solid #0077aa;border-radius:0 3px 3px 0;margin-bottom:5px; }
+#zx-inner .tr-list { display:flex;flex-direction:column;gap:5px; }
+#zx-inner .tr-item { display:flex;gap:7px;align-items:flex-start;padding:7px 10px;background:#fffbe8;border-left:3px solid #d8b030;border-radius:0 5px 5px 0;font-size:12px;color:#302800;line-height:1.5; }
+#zx-inner .tr-icon { font-size:13px;flex-shrink:0; }
+#zx-inner .flow { display:flex;align-items:stretch;gap:4px; }
+#zx-inner .fs { flex:1;background:#f0f7fb;border:1px solid #c0d8e8;border-radius:6px;padding:10px 8px;text-align:center; }
+#zx-inner .fs-num { width:22px;height:22px;background:#005580;color:#fff;border-radius:50%;font-size:11px;font-weight:700;display:flex;align-items:center;justify-content:center;margin:0 auto 5px; }
+#zx-inner .fs-title { font-size:11px;font-weight:700;color:#005580;margin-bottom:3px; }
+#zx-inner .fs-desc  { font-size:10.5px;color:#304050;line-height:1.4; }
+#zx-inner .fa { display:flex;align-items:center;color:#f0a020;font-size:16px;font-weight:700;flex-shrink:0; }
+#zx-zoombar { display:flex;align-items:center;justify-content:center;gap:10px;padding:10px 16px;border-top:1px solid #d0e8f5;flex-shrink:0;background:#f5fafd; }
+.zxb { cursor:pointer;padding:4px 14px;border-radius:16px;border:1px solid #90b8d8;background:#e8f3fb;font-family:'Times New Roman',serif;font-size:13px;color:#005580;font-weight:700;transition:background 0.15s; }
+.zxb:hover { background:#c8e0f5; }
+#zx-scale { font-family:'Times New Roman',serif;font-size:12px;color:#508090;min-width:44px;text-align:center; }
+#zx-hint { position:fixed;bottom:14px;left:50%;transform:translateX(-50%);background:rgba(0,60,100,0.9);color:#c8f0ff;font-family:'Times New Roman',serif;font-size:12px;padding:6px 18px;border-radius:20px;z-index:9989;pointer-events:none;transition:opacity 0.5s;white-space:nowrap;box-shadow:0 2px 12px rgba(0,0,0,0.2); }
+#zx-hint.hidden { opacity:0; }
+</style>
+</head>
+<body>
+<div class="page">
+
+<!-- HEADER -->
+<div class="header">
+  <div class="hdr-emblem">💡</div>
+  <div class="hdr-main">
+    <div class="hdr-org">Ủy ban nhân dân tỉnh Khánh Hòa · Quyết định số 44/2026/QĐ-UBND ngày 29/5/2026</div>
+    <div class="hdr-title">QUY ĐỊNH ĐÁNH GIÁ, XÉT CÔNG NHẬN HIỆU QUẢ ÁP DỤNG & KHẢ NĂNG NHÂN RỘNG CỦA SÁNG KIẾN; HIỆU QUẢ ÁP DỤNG, PHẠM VI ẢNH HƯỞNG CỦA ĐỀ TÀI/ĐỀ ÁN/CÔNG TRÌNH KH&CN TRÊN ĐỊA BÀN TỈNH KHÁNH HÒA</div>
+    <div class="hdr-sub">Hiệu lực từ 09/6/2026 · KT. Chủ tịch UBND tỉnh — Phó Chủ tịch Nguyễn Thanh Hà · Căn cứ: Luật KH&ĐMST 93/2025 · Luật Thi đua, khen thưởng 06/2022 · NĐ 152/2025/NĐ-CP · TT 15/2025/TT-BNV</div>
+  </div>
+  <div class="hdr-pills">
+    <div class="hdr-pill">📋 3 Chương · 15 Điều · 3 Phụ lục (11 biểu mẫu)</div>
+    <div class="hdr-pill">🎯 Phục vụ xét danh hiệu Chiến sĩ thi đua & Khen thưởng</div>
+  </div>
+</div>
+
+<div class="body">
+
+<!-- ══ CỘT 1: CHƯƠNG I — QUY ĐỊNH CHUNG ══ -->
+<div class="col">
+
+  <div class="sh blue"><span class="sh-icon">📜</span><span class="sh-text">CHƯƠNG I — QUY ĐỊNH CHUNG</span><span class="sh-art">Điều 1–4</span></div>
+
+  <div class="pct">🎯 Phạm vi áp dụng (Điều 1)</div>
+  <div class="rl">
+    <div class="ri"><span class="ri-icon">📌</span><div class="ri-text">Quy định về: <strong>nguyên tắc, thẩm quyền, điều kiện, hồ sơ, tiếp nhận, hội đồng đánh giá, tiêu chí và thang điểm</strong> đánh giá, xét công nhận hiệu quả áp dụng và khả năng nhân rộng/phạm vi ảnh hưởng của sáng kiến, đề tài KH, đề án KH, công trình KH&CN trên địa bàn tỉnh Khánh Hòa.</div></div>
+    <div class="ri"><span class="ri-icon">🎖️</span><div class="ri-text">Mục đích: Làm căn cứ đề nghị xét tặng <strong>danh hiệu Chiến sĩ thi đua hoặc các hình thức khen thưởng</strong> cho cá nhân theo tiêu chuẩn có sáng kiến hoặc công trình KH&CN.</div></div>
+  </div>
+
+  <div class="pct">📖 Giải thích từ ngữ (Điều 3)</div>
+  <table class="gt blue">
+    <thead><tr><th>Thuật ngữ</th><th>Định nghĩa</th></tr></thead>
+    <tbody>
+      <tr><td>💡 Sáng kiến</td><td>Giải pháp kỹ thuật · giải pháp quản lý · giải pháp tác nghiệp · giải pháp ứng dụng tiến bộ KT (k4/Đ3 Luật TĐKT 06/2022 và Đ3 NĐ 13/2012)</td></tr>
+      <tr><td>🏢 Cơ sở công nhận SK</td><td>Cơ quan/tổ chức được thành lập theo pháp luật, có thể tham gia quan hệ dân sự độc lập (k4/Đ2 NĐ 13/2012)</td></tr>
+      <tr><td>🔬 Đề tài KH/đề án KH/công trình KH&CN</td><td>Đã được cơ quan thẩm quyền <strong>nghiệm thu</strong> theo quy định Luật KH&ĐMST hiện hành</td></tr>
+      <tr><td>🏛️ Hội đồng cấp tỉnh</td><td>Giúp người đứng đầu xét công nhận phạm vi <strong>toàn tỉnh và toàn quốc</strong></td></tr>
+      <tr><td>🏠 Hội đồng cơ sở</td><td>Giúp người đứng đầu xét công nhận phạm vi <strong>cấp cơ sở</strong></td></tr>
+    </tbody>
+  </table>
+
+  <div class="pct">⚖️ 4 Nguyên tắc đánh giá, xét công nhận (Điều 4)</div>
+  <div class="rl">
+    <div class="ri g"><span class="ri-icon">🎯</span><div class="ri-text"><strong>Nguyên tắc 1:</strong> Phục vụ xét, tặng danh hiệu thi đua và khen thưởng dựa vào tiêu chuẩn có sáng kiến hoặc công trình KH&CN.</div></div>
+    <div class="ri g"><span class="ri-icon">📊</span><div class="ri-text"><strong>Nguyên tắc 2:</strong> Dựa trên <strong>dữ liệu minh chứng</strong>; đảm bảo công khai, minh bạch, công bằng. Thẩm quyền: Chủ tịch UBND tỉnh (cấp tỉnh/toàn quốc) và Thủ trưởng cơ sở (cấp cơ sở).</div></div>
+    <div class="ri g"><span class="ri-icon">🔢</span><div class="ri-text"><strong>Nguyên tắc 3:</strong> Đề nghị cấp cao hơn phải được <strong>đề nghị từ cấp dưới trước</strong>.</div></div>
+    <div class="ri g"><span class="ri-icon">📢</span><div class="ri-text"><strong>Nguyên tắc 4:</strong> Danh mục đề nghị đánh giá phải thông báo công khai tối thiểu <strong>07 ngày làm việc</strong> trên cổng thông tin trước khi tiến hành đánh giá.</div></div>
+  </div>
+
+  <div class="pct">🏆 Ba cấp độ xét công nhận</div>
+  <div class="level-row">
+    <div class="lvl cs">
+      <div class="lvl-icon">🏠</div>
+      <div class="lvl-name">Cấp cơ sở</div>
+      <div class="lvl-desc">Thủ trưởng đơn vị quyết định<br>Chiến sĩ thi đua cơ sở</div>
+    </div>
+    <div class="lvl t">
+      <div class="lvl-icon">🏛️</div>
+      <div class="lvl-name">Cấp tỉnh</div>
+      <div class="lvl-desc">Chủ tịch UBND tỉnh quyết định<br>Chiến sĩ thi đua cấp tỉnh</div>
+    </div>
+    <div class="lvl q">
+      <div class="lvl-icon">🌍</div>
+      <div class="lvl-name">Toàn quốc</div>
+      <div class="lvl-desc">Chủ tịch UBND tỉnh phê duyệt<br>Chiến sĩ thi đua toàn quốc</div>
+    </div>
+  </div>
+
+  <div class="stat-row">
+    <div class="sb blue"><div class="sb-num">3</div><div class="sb-unit">chương</div><div class="sb-desc">Cấu trúc quy định</div></div>
+    <div class="sb teal"><div class="sb-num">15</div><div class="sb-unit">điều</div><div class="sb-desc">Tổng điều khoản</div></div>
+    <div class="sb grn"><div class="sb-num">11</div><div class="sb-unit">biểu mẫu</div><div class="sb-desc">3 Phụ lục kèm theo</div></div>
+  </div>
+
+</div><!-- end col 1 -->
+
+
+<!-- ══ CỘT 2: ĐIỀU KIỆN + HỒ SƠ + TIẾP NHẬN ══ -->
+<div class="col">
+
+  <div class="sh teal"><span class="sh-icon">✅</span><span class="sh-text">ĐIỀU KIỆN THAM GIA ĐÁNH GIÁ XÉT CÔNG NHẬN</span><span class="sh-art">Điều 5</span></div>
+
+  <div class="pct">📋 Yêu cầu chung cho mọi cấp</div>
+  <div class="rl">
+    <div class="ri t"><span class="ri-icon">⏱️</span><div class="ri-text"><strong>Thời gian áp dụng tối thiểu: 03 tháng</strong> (tính tổng nếu theo chu kỳ hoặc không liên tục).</div></div>
+    <div class="ri t"><span class="ri-icon">📄</span><div class="ri-text">Phải có <strong>văn bản xác nhận hiệu quả</strong> của cá nhân/bộ phận/đơn vị áp dụng.</div></div>
+    <div class="ri t"><span class="ri-icon">📝</span><div class="ri-text">Đề tài KH phải đã được <strong>đăng ký kết quả thực hiện nhiệm vụ KH&CN</strong> theo quy định và đưa vào áp dụng &gt; 03 tháng.</div></div>
+    <div class="ri r"><span class="ri-icon">🚫</span><div class="ri-text">Không xâm phạm quyền SHTT; không bị <strong>khiếu nại, tố cáo</strong> tại thời điểm đánh giá.</div></div>
+  </div>
+
+  <div class="pct">🌍 Điều kiện theo cấp độ xét công nhận</div>
+  <table class="gt teal">
+    <thead><tr><th>Cấp</th><th>Số đơn vị triển khai tối thiểu</th><th>Ghi chú</th></tr></thead>
+    <tbody>
+      <tr><td>🌍 Toàn quốc</td><td>≥ 02 cơ quan/đơn vị, trong đó có <strong>01 đơn vị ngoài ngành</strong> (ngành dọc) hoặc <strong>ngoài tỉnh Khánh Hòa</strong></td><td>Trừ lĩnh vực chuyên môn đặc thù</td></tr>
+      <tr><td>🏛️ Toàn tỉnh</td><td>≥ 02 cơ quan/đơn vị, trong đó có <strong>01 đơn vị ngoài ngành</strong> hoặc xã/phường/<strong>đặc khu khác</strong> thuộc tỉnh</td><td>Trừ lĩnh vực chuyên môn đặc thù</td></tr>
+      <tr><td>🏠 Cơ sở</td><td>Một trong 3 trường hợp: <strong>(a)</strong> Chính tác giả triển khai hiệu quả; <strong>(b)</strong> ≥02 cá nhân/bộ phận áp dụng; <strong>(c)</strong> Chuyển giao ứng dụng trong/ngoài cơ sở</td><td>Có VB xác nhận</td></tr>
+    </tbody>
+  </table>
+  <div class="note-b">⚠️ <strong>Lĩnh vực chuyên môn đặc thù</strong> (thiết bị kỹ thuật cao, nhân lực chuyên sâu): Không căn cứ số lượng đơn vị áp dụng mà dựa trên <strong>minh chứng hiệu quả thực tế, tác động chuyên môn và khả năng nhân rộng</strong> trong phạm vi ngành/lĩnh vực đặc thù.</div>
+
+  <div class="sh teal"><span class="sh-icon">📂</span><span class="sh-text">HỒ SƠ ĐỀ NGHỊ ĐÁNH GIÁ</span><span class="sh-art">Điều 6</span></div>
+
+  <div class="pct">📁 Hồ sơ đối với Sáng kiến (Biểu mẫu Phụ lục I)</div>
+  <div class="pg">
+    <div class="pi"><div class="pi-num">1a</div><div class="pi-text">Văn bản đề nghị đánh giá, xét công nhận (Mẫu 1a)</div></div>
+    <div class="pi"><div class="pi-num">1c</div><div class="pi-text">Báo cáo kết quả áp dụng, chuyển giao ứng dụng (Mẫu 1c)</div></div>
+    <div class="pi"><div class="pi-num">GCN</div><div class="pi-text">Giấy chứng nhận sáng kiến + Báo cáo SK đã được công nhận</div></div>
+    <div class="pi"><div class="pi-num">1đ/1e</div><div class="pi-text">VB xác nhận của tổ chức (Mẫu 1đ) hoặc cá nhân (Mẫu 1e) áp dụng</div></div>
+  </div>
+
+  <div class="pct">📁 Hồ sơ đối với Đề tài KH/đề án KH/công trình KH&CN</div>
+  <div class="pg">
+    <div class="pi"><div class="pi-num">1b</div><div class="pi-text">Văn bản đề nghị đánh giá, xét công nhận (Mẫu 1b)</div></div>
+    <div class="pi"><div class="pi-num">1d</div><div class="pi-text">Báo cáo kết quả áp dụng, chuyển giao ứng dụng (Mẫu 1d)</div></div>
+    <div class="pi"><div class="pi-num">ĐK</div><div class="pi-text">Giấy chứng nhận đăng ký kết quả thực hiện nhiệm vụ KH&CN + Báo cáo tổng hợp</div></div>
+    <div class="pi"><div class="pi-num">1đ</div><div class="pi-text">VB xác nhận của các cơ quan, đơn vị áp dụng/chuyển giao (Mẫu 1đ)</div></div>
+  </div>
+
+  <div class="note">📋 <strong>Hình thức nộp:</strong> Trực tiếp tại Bộ phận một cửa / Qua bưu chính / Trực tuyến hệ thống E-Office đến cơ quan có thẩm quyền đánh giá. <strong>Số lượng: 01 bộ</strong> bản giấy hoặc bản điện tử.</div>
+
+  <div class="sh teal"><span class="sh-icon">📥</span><span class="sh-text">TIẾP NHẬN, TỔ CHỨC ĐÁNH GIÁ</span><span class="sh-art">Điều 7</span></div>
+  <div class="auth-box">
+    <div class="auth-row"><span class="auth-icon">🏛️</span><div><div class="auth-title">Sở Khoa học và Công nghệ (Cơ quan Thường trực HĐ sáng kiến tỉnh)</div><div class="auth-desc">Tiếp nhận hồ sơ và chủ trì tham mưu UBND tỉnh thực hiện đánh giá, xét công nhận phạm vi <strong>toàn tỉnh và toàn quốc</strong>.</div></div></div>
+    <div class="auth-row"><span class="auth-icon">🏠</span><div><div class="auth-title">Đơn vị/Phòng ban chuyên môn được Thủ trưởng giao</div><div class="auth-desc">Tiếp nhận hồ sơ và chủ trì tham mưu thực hiện đánh giá, xét công nhận <strong>cấp cơ sở</strong>. Lập Báo cáo thẩm định theo <strong>Mẫu 2a (Phụ lục II)</strong>.</div></div></div>
+  </div>
+
+</div><!-- end col 2 -->
+
+
+<!-- ══ CỘT 3: HỘI ĐỒNG + TIÊU CHÍ THANG ĐIỂM ══ -->
+<div class="col">
+
+  <div class="sh navy"><span class="sh-icon">🏛️</span><span class="sh-text">HỘI ĐỒNG ĐÁNH GIÁ XÉT CÔNG NHẬN</span><span class="sh-art">Điều 8</span></div>
+
+  <div class="pct">🏛️ Hội đồng đánh giá cấp TỈNH</div>
+  <table class="gt navy">
+    <thead><tr><th>Thành phần</th><th>Chi tiết</th></tr></thead>
+    <tbody>
+      <tr><td>Thành lập</td><td>Do <strong>Chủ tịch UBND tỉnh</strong> quyết định</td></tr>
+      <tr><td>Số thành viên</td><td><strong>09 hoặc 11 thành viên</strong> = 03 cố định + 06–08 chuyên ngành</td></tr>
+      <tr><td>Thành viên cố định</td><td>Chủ tịch: Giám đốc Sở KH&CN; 01 PCT: Phó GĐ Sở KH&CN; 01 PCT: Lãnh đạo Sở Nội vụ / Sở TC / VP UBND tỉnh</td></tr>
+      <tr><td>Thành viên CN + Thư ký</td><td>Giám đốc Sở KH&CN đề xuất, phù hợp lĩnh vực SK/đề tài; từ sở ban ngành, doanh nghiệp hoặc chuyên gia</td></tr>
+    </tbody>
+  </table>
+
+  <div class="pct">🏠 Hội đồng đánh giá cơ sở</div>
+  <div class="rl">
+    <div class="ri b"><span class="ri-icon">👤</span><div class="ri-text">Thủ trưởng cơ quan/đơn vị thẩm quyền quyết định thành lập. Số thành viên: <strong>07 hoặc 09 thành viên</strong> gồm: các phòng chuyên môn + phòng TĐKT + tài chính + chuyên gia lĩnh vực đề nghị đánh giá.</div></div>
+    <div class="ri r"><span class="ri-icon">🚫</span><div class="ri-text"><strong>Tác giả và đồng tác giả không được tham gia Hội đồng.</strong> Nếu người đứng đầu là tác giả → Chỉ định cấp phó hoặc chuyên gia ngoài cơ quan làm Chủ tịch HĐ.</div></div>
+  </div>
+
+  <div class="pct">📋 Nguyên tắc làm việc của Hội đồng</div>
+  <div class="rl">
+    <div class="ri"><span class="ri-icon">⏰</span><div class="ri-text">Chậm nhất <strong>30 ngày làm việc</strong> từ ngày nhận hồ sơ hợp lệ phải tổ chức họp HĐ đánh giá.</div></div>
+    <div class="ri"><span class="ri-icon">📊</span><div class="ri-text">Cuộc họp phải có mặt <strong>ít nhất 2/3</strong> số thành viên HĐ (có Chủ tịch hoặc Phó CT được ủy quyền).</div></div>
+    <div class="ri"><span class="ri-icon">🗳️</span><div class="ri-text">Quyết định theo nguyên tắc <strong>bỏ phiếu đánh giá</strong>. Kết quả phản ánh đầy đủ trong biên bản họp HĐ (Mẫu 2c).</div></div>
+  </div>
+
+  <div class="sh navy"><span class="sh-icon">📊</span><span class="sh-text">NHÓM TIÊU CHÍ & THANG ĐIỂM ĐÁNH GIÁ (100 ĐIỂM)</span><span class="sh-art">Điều 9</span></div>
+
+  <div class="score-grid">
+    <div class="score-box a">
+      <div class="score-pts">15</div>
+      <div class="score-lbl">📋 Nhóm I — Hình thức & Tài liệu</div>
+      <div class="score-desc">Mức độ hoàn thiện, độ chi tiết, tin cậy, rõ ràng của Báo cáo và hồ sơ chứng minh kết quả ứng dụng (3 tiêu chí thành phần: 4+4+7 điểm)</div>
+    </div>
+    <div class="score-box b">
+      <div class="score-pts">30</div>
+      <div class="score-lbl">🌐 Nhóm II — Phạm vi ảnh hưởng</div>
+      <div class="score-desc">Tổng số đơn vị đang ứng dụng (15đ) + Sự phù hợp về số lượng và nội dung áp dụng theo phạm vi đề nghị (15đ)</div>
+    </div>
+    <div class="score-box c">
+      <div class="score-pts">40</div>
+      <div class="score-lbl">💰 Nhóm III — Hiệu quả áp dụng</div>
+      <div class="score-desc">Giá trị kinh tế bằng tiền + Hiệu quả chuyên môn/kỹ thuật/công nghệ + Đổi mới quản lý/quy trình + An toàn XH/sức khỏe cộng đồng + Quản lý nhà nước + Quốc phòng, an ninh + Chủ trương Đảng, chính sách chính quyền</div>
+    </div>
+    <div class="score-box d">
+      <div class="score-pts">15</div>
+      <div class="score-lbl">🚀 Nhóm IV — Tiềm năng mở rộng</div>
+      <div class="score-desc">Khả năng mở rộng/nhân rộng phạm vi (10đ) + Tiềm năng phạm vi cao hơn (3đ) + Tiềm năng tạo giá trị KT-XH mới (2đ)</div>
+    </div>
+  </div>
+
+  <div class="pct">✅ Điều kiện xác nhận (để Hội đồng kiến nghị)</div>
+  <table class="gt navy">
+    <thead><tr><th>Phạm vi công nhận</th><th>Điều kiện điểm</th><th>Bỏ phiếu</th></tr></thead>
+    <tbody>
+      <tr><td>🌍 Toàn quốc</td><td>Điểm TB <strong>≥ 70/100</strong>; Nhóm III (Hiệu quả) <strong>≥ 28đ</strong>; Mỗi nhóm còn lại <strong>≥ 5đ</strong></td><td><strong>≥ 2/3</strong> thành viên tham dự đồng ý</td></tr>
+      <tr><td>🏛️ Toàn tỉnh</td><td>Điểm TB <strong>≥ 70/100</strong>; Nhóm III <strong>≥ 28đ</strong>; Mỗi nhóm còn lại <strong>≥ 5đ</strong></td><td><strong>≥ 2/3</strong> thành viên tham dự đồng ý</td></tr>
+      <tr><td>🏠 Cơ sở</td><td>Điểm TB <strong>≥ 70/100</strong>; Nhóm III <strong>≥ 28đ</strong>; Mỗi nhóm còn lại <strong>≥ 5đ</strong></td><td><strong>≥ 2/3</strong> thành viên tham dự đồng ý</td></tr>
+    </tbody>
+  </table>
+
+  <div class="note"><strong>🔍 4 nội dung thảo luận của HĐ:</strong> (1) Hình thức, mức độ hoàn thiện, tin cậy của Báo cáo; (2) Khả năng nhân rộng/phạm vi ảnh hưởng; (3) Hiệu quả áp dụng; (4) Tiềm năng tiếp tục mở rộng và nâng cao hiệu quả. Sau đó bỏ phiếu theo <strong>Mẫu 2b Phụ lục II</strong>.</div>
+
+</div><!-- end col 3 -->
+
+
+<!-- ══ CỘT 4: TRÌNH TỰ + THỜI HẠN + TRÁCH NHIỆM ══ -->
+<div class="col">
+
+  <div class="sh grn"><span class="sh-icon">🔄</span><span class="sh-text">TRÌNH TỰ & THỜI HẠN XÉT CÔNG NHẬN</span><span class="sh-art">Điều 10</span></div>
+
+  <div class="pct">🏠 Trình tự tại cấp Cơ sở (2 bước)</div>
+  <div class="flow">
+    <div class="fs"><div class="fs-num">1</div><div class="fs-title">Tiếp nhận HS</div><div class="fs-desc">Bộ phận thường trực SK tiếp nhận, rà soát, lập Báo cáo thẩm định (Mẫu 2a), đề xuất danh sách đủ điều kiện</div></div>
+    <div class="fa">›</div>
+    <div class="fs"><div class="fs-num">2a</div><div class="fs-title">Không qua HĐ</div><div class="fs-desc">HS đầy đủ minh chứng → Người đứng đầu ban hành QĐ (Mẫu 2d) hoặc VB xác nhận (Mẫu 2đ)</div></div>
+    <div class="fa">›</div>
+    <div class="fs"><div class="fs-num">2b</div><div class="fs-title">Qua HĐ đánh giá</div><div class="fs-desc">Thành lập HĐ cơ sở 7-9 thành viên → Họp đánh giá → BB họp HĐ (Mẫu 2c) → Người đứng đầu ban hành QĐ/VB</div></div>
+  </div>
+
+  <div class="pct">🏛️ Trình tự tại Cấp tỉnh & Toàn quốc (2 bước)</div>
+  <div class="flow">
+    <div class="fs"><div class="fs-num">1</div><div class="fs-title">Sở KH&CN tiếp nhận</div><div class="fs-desc">Rà soát tính hợp lệ HS; lập Báo cáo thẩm định (Mẫu 2a); trình CT UBND tỉnh thành lập HĐ đánh giá tỉnh</div></div>
+    <div class="fa">›</div>
+    <div class="fs"><div class="fs-num">2</div><div class="fs-title">HĐ đánh giá tỉnh</div><div class="fs-desc">Tổ chức đánh giá theo Điều 8-9; lập BB họp; trình CT UBND tỉnh kết quả HĐ</div></div>
+    <div class="fa">›</div>
+    <div class="fs"><div class="fs-num">3</div><div class="fs-title">CT UBND tỉnh quyết định</div><div class="fs-desc">Phê duyệt QĐ (Mẫu 2d) hoặc VB xác nhận (Mẫu 2đ) trong 10 ngày LV; hoặc văn bản phản hồi nếu không đạt</div></div>
+  </div>
+
+  <div class="pct">⏰ Thời hạn xử lý</div>
+  <table class="gt grn">
+    <thead><tr><th>Hoạt động</th><th>Thời hạn</th></tr></thead>
+    <tbody>
+      <tr><td>Tổ chức họp HĐ đánh giá (từ khi nhận HS hợp lệ)</td><td>Chậm nhất <strong>30 ngày LV</strong></td></tr>
+      <tr><td>CT UBND tỉnh quyết định (từ khi nhận HS trình của HĐ tỉnh)</td><td>Chậm nhất <strong>10 ngày LV</strong></td></tr>
+      <tr><td>Thủ trưởng cơ sở quyết định (từ khi nhận HS trình HĐ cơ sở)</td><td>Chậm nhất <strong>07 ngày LV</strong></td></tr>
+      <tr><td>Thông báo công khai kết quả đánh giá trên cổng thông tin</td><td>Trong <strong>05 ngày LV</strong> và đăng tối thiểu <strong>60 ngày</strong></td></tr>
+      <tr><td>Thông báo danh mục SK/đề tài trước khi đánh giá</td><td>Tối thiểu <strong>07 ngày LV</strong> trên cổng TT ĐT</td></tr>
+    </tbody>
+  </table>
+
+  <div class="sh pur"><span class="sh-icon">🗑️</span><span class="sh-text">HỦY QĐ/VĂN BẢN XÁC NHẬN (Điều 12)</span><span class="sh-art">Điều 12</span></div>
+  <div class="rl">
+    <div class="ri r"><span class="ri-icon">⚠️</span><div class="ri-text"><strong>Trường hợp hủy:</strong> (a) Tổ chức/cá nhân đề nghị có hành vi giả mạo, gian lận, khai báo không trung thực; (b) Vi phạm các yêu cầu, điều kiện tại Điều 5.</div></div>
+    <div class="ri r"><span class="ri-icon">⚖️</span><div class="ri-text">Tổ chức/cá nhân bị hủy QĐ/VB xác nhận phải <strong>chịu các hình thức xử lý</strong> theo quy định hiện hành.</div></div>
+  </div>
+
+  <div class="sh org"><span class="sh-icon">⚖️</span><span class="sh-text">TRÁCH NHIỆM THI HÀNH</span><span class="sh-art">Điều 13–15</span></div>
+
+  <div class="auth-box">
+    <div class="auth-row"><span class="auth-icon">🔬</span><div><div class="auth-title">Sở Khoa học và Công nghệ</div><div class="auth-desc">Chủ trì triển khai, hướng dẫn, kiểm tra toàn tỉnh; tiếp nhận và giải quyết khiếu nại, tố cáo. Nguồn KP HĐ tỉnh: từ <strong>kinh phí sự nghiệp KH&CN</strong> phân bổ hàng năm.</div></div></div>
+    <div class="auth-row"><span class="auth-icon">💰</span><div><div class="auth-title">Sở Tài chính</div><div class="auth-desc">Tổng hợp, cân đối, tham mưu <strong>bố trí kinh phí</strong> thực hiện từ dự toán hàng năm của các sở ban ngành và địa phương.</div></div></div>
+    <div class="auth-row"><span class="auth-icon">🏛️</span><div><div class="auth-title">Thủ trưởng các Sở/ban/ngành & Chủ tịch UBND xã/phường/đặc khu</div><div class="auth-desc">Chỉ đạo phòng chuyên môn, đơn vị trực thuộc triển khai. UBND xã chủ trì phối hợp với Phòng Văn hóa - Xã hội triển khai trên địa bàn.</div></div></div>
+    <div class="auth-row"><span class="auth-icon">👤</span><div><div class="auth-title">Tổ chức, cá nhân đề nghị đánh giá</div><div class="auth-desc">Thực hiện nghiêm túc việc báo cáo kết quả; nộp hồ sơ đúng quy định; bổ sung/làm rõ hồ sơ khi có yêu cầu; đảm bảo kê khai <strong>đủ, đúng, trung thực</strong>. Có quyền tham dự HĐ để làm rõ và <strong>yêu cầu phúc khảo, khiếu nại, tố cáo</strong>.</div></div></div>
+  </div>
+
+  <div class="tr-list">
+    <div class="tr-item"><span class="tr-icon">📅</span><span>Hiệu lực từ <strong>09/6/2026</strong>. Văn bản dẫn chiếu sửa đổi → thực hiện theo văn bản mới.</span></div>
+    <div class="tr-item"><span class="tr-icon">📍</span><span>Phụ lục III quy định đặc thù với <strong>Y tế, Giáo dục</strong>: giáo viên mầm non/cấp 1-2 (thẩm quyền Chủ tịch UBND xã); giáo viên cấp 3 và nhân viên y tế (thẩm quyền Giám đốc Sở GD&ĐT/Sở Y tế); Bằng khen UBND tỉnh (phải có 02 sáng kiến và 2 lần CSTĐCS).</span></div>
+  </div>
+
+</div><!-- end col 4 -->
+
+</div><!-- end body -->
+
+<div class="footer">
+  <span><strong>QĐ 44/2026/QĐ-UBND — UBND tỉnh Khánh Hòa · KT. Chủ tịch UBND — Phó Chủ tịch Nguyễn Thanh Hà · Hiệu lực 09/6/2026</strong></span>
+  <span>Infographic phổ biến nội bộ — không thay thế văn bản pháp luật gốc · 3 Chương · 15 Điều · 3 Phụ lục</span>
+</div>
+
+</div><!-- end page -->
+
+<!-- ZOOM MODAL -->
+<div id="zx-backdrop"></div>
+<div id="zx-modal">
+  <div id="zx-titlebar"><span id="zx-title"></span><button id="zx-close">✕</button></div>
+  <div id="zx-scroll"><div id="zx-inner"></div></div>
+  <div id="zx-zoombar">
+    <button class="zxb" id="zx-minus">－ Thu nhỏ</button>
+    <span id="zx-scale">100%</span>
+    <button class="zxb" id="zx-plus">＋ Phóng to</button>
+    <button class="zxb" id="zx-reset">⟳ Reset</button>
+  </div>
+</div>
+<div id="zx-hint">🔍 Click vào bảng / khối nội dung bất kỳ để phóng to</div>
+
+<script>
+(function(){
+  var bd=document.getElementById('zx-backdrop'),modal=document.getElementById('zx-modal'),
+      tEl=document.getElementById('zx-title'),inner=document.getElementById('zx-inner'),
+      cBtn=document.getElementById('zx-close'),hint=document.getElementById('zx-hint'),
+      scEl=document.getElementById('zx-scale'),sc=1,tm=false;
+
+  document.querySelectorAll('.col > *').forEach(function(el){
+    if(el.classList.contains('sh')) return; el.classList.add('zoomable');
+  });
+
+  function positionModal(){
+    var vv=window.visualViewport,cx,cy,vw,vh;
+    if(vv){cx=vv.offsetLeft+vv.width/2;cy=vv.offsetTop+vv.height/2;vw=vv.width;vh=vv.height;}
+    else{cx=window.scrollX+window.innerWidth/2;cy=window.scrollY+window.innerHeight/2;vw=window.innerWidth;vh=window.innerHeight;}
+    modal.style.position='fixed';modal.style.left=cx+'px';modal.style.top=cy+'px';
+    modal.style.transform='translate(-50%,-50%)';
+    modal.style.maxHeight=Math.floor(vh*0.9)+'px';
+    modal.style.maxWidth=Math.min(Math.floor(vw*0.96),1100)+'px';
+  }
+
+  function open(el){
+    var t='',p=el.previousElementSibling;
+    while(p){if(p.classList.contains('sh')){var x=p.querySelector('.sh-text');if(x)t=x.textContent.trim();break;}p=p.previousElementSibling;}
+    tEl.textContent=t||'Chi tiết nội dung';inner.innerHTML='';
+    var c=el.cloneNode(true);c.classList.remove('zoomable');
+    c.querySelectorAll('.zoomable').forEach(function(x){x.classList.remove('zoomable');});
+    inner.appendChild(c);sc=1;
+    bd.style.display='block';modal.style.display='flex';
+    var sy=window.scrollY;document.body.dataset.sy=sy;
+    document.body.style.overflow='hidden';document.body.style.position='fixed';
+    document.body.style.top='-'+sy+'px';document.body.style.width='100%';
+    requestAnimationFrame(function(){
+      positionModal();
+      if(window.innerWidth>768){var vv=window.visualViewport;var vw=vv?vv.width:window.innerWidth;modal.style.width=Math.min(inner.scrollWidth+56,vw*0.96)+'px';}
+      else{modal.style.width='';}
+      applyScale();
+    });
+  }
+
+  function close(){
+    bd.style.display='none';modal.style.display='none';
+    var sy=parseInt(document.body.dataset.sy||'0');
+    document.body.style.overflow='';document.body.style.position='';
+    document.body.style.top='';document.body.style.width='';
+    window.scrollTo(0,sy);
+  }
+
+  function applyScale(){
+    scEl.textContent=Math.round(sc*100)+'%';
+    inner.style.transform='scale('+sc+')';inner.style.transformOrigin='top left';
+    if(inner.firstChild){inner.style.width=(inner.firstChild.scrollWidth*sc)+'px';inner.style.height=(inner.firstChild.scrollHeight*sc)+'px';}
+  }
+
+  document.getElementById('zx-plus').addEventListener('click',function(e){e.stopPropagation();sc=Math.min(4,+(sc+0.25).toFixed(2));applyScale();});
+  document.getElementById('zx-minus').addEventListener('click',function(e){e.stopPropagation();sc=Math.max(0.4,+(sc-0.25).toFixed(2));applyScale();});
+  document.getElementById('zx-reset').addEventListener('click',function(e){e.stopPropagation();sc=1;applyScale();});
+
+  function find(t){while(t&&t!==document.body){if(t.classList&&t.classList.contains('zoomable'))return t;t=t.parentElement;}return null;}
+
+  document.addEventListener('click',function(e){
+    if(modal.style.display==='flex'){if(!modal.contains(e.target))close();return;}
+    var el=find(e.target);if(el){e.preventDefault();e.stopPropagation();open(el);}
+  });
+  document.addEventListener('touchstart',function(){tm=false;},{passive:true});
+  document.addEventListener('touchmove',function(){tm=true;},{passive:true});
+  document.addEventListener('touchend',function(e){
+    if(tm)return;
+    if(modal.style.display==='flex'){if(!modal.contains(e.target))close();return;}
+    var el=find(e.target);if(el){e.preventDefault();open(el);}
+  },{passive:false});
+
+  cBtn.addEventListener('click',function(e){e.stopPropagation();close();});
+  cBtn.addEventListener('touchend',function(e){e.stopPropagation();close();},{passive:true});
+  bd.addEventListener('click',close);
+  bd.addEventListener('touchend',function(e){if(!tm)close();},{passive:true});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape')close();});
+  hint.classList.remove('hidden');setTimeout(function(){hint.classList.add('hidden');},5000);
+})();
+</script>
+</body>
+</html>
